@@ -10,22 +10,28 @@ html, body {
     word-wrap: break-word;
     text-align: left;
   }
+  .heading h1 {
+    color: #b76935;
+    
+  }
   
   #text-input {
     min-height: 200px;
   }
-  .col {
-      background-color: #6c757d;
-  }
+  
   .btn {
       background-color: #252525;
       color: #b76935;
   }
   .editor .col {
-    max-width: 50%;
-    flex-basis: 50%;
+    max-width: 45%;
+    flex-basis: 45%;
+    margin: 0.5rem;
     background-color:#6c757d;
     color: #b76935;
+    border-radius: 0.5rem;
+   
+    
   }
   .col label {
       color: black;
