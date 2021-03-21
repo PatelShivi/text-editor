@@ -1,3 +1,8 @@
+html, body {
+    background-color: #212529;
+}
+
+
 #text-output {
     min-height: 200px;
     border-radius: 3px;
@@ -10,12 +15,21 @@
     min-height: 200px;
   }
   .col {
-      background-color: gray;
+      background-color: #6c757d;
   }
-  
+  .btn {
+      background-color: #252525;
+      color: #b76935;
+  }
   .editor .col {
     max-width: 50%;
     flex-basis: 50%;
+    background-color:#6c757d;
+    color: #b76935;
+  }
+  .col label {
+      color: black;
+      font-size: 1.3rem;;
   }
   
   .bold {
